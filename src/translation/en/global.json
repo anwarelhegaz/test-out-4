@@ -1,0 +1,31 @@
+{
+    "headerTop": {
+        "number": " 00966549941791"
+    },
+    "navBar": {
+        "home": "Home",        
+        "page-About": "About",
+        "page-Team": "Team",
+        "page-Gallery": "Gallery",
+        "page-Contact": "Contact"
+    },
+    "welcomeBanner": {
+        "welcomeTitle": "Digital product marketing agency",
+        "hint": "We are a specialized company in marketing, consulting, and marketing solutions. We provide the latest in advertising and promotional services, staying at the forefront of innovation in the field. As we undertake diverse projects,"
+    },
+    "changeWords": {
+        "title": "An innovative digital agency that combines creativity and technology in product marketing. via",
+        "word1": "Website design.",
+        "word2": "Visual identity design.",
+        "word3": "Marketing campaign management.",
+        "word4": "Marketing strategy analysis.",
+        "word5": "Creating marketing plans.",
+        "word6": "Preparing a marketing feasibility study.",
+        "word7": "Competitor and market analysis."
+    },
+    "ourServices": {
+        "ourServies": "Our Services"
+    }
+
+
+}

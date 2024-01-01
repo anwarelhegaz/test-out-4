@@ -1,0 +1,9 @@
+.header-top {
+    padding: 10px 0;
+    background: #876cc4;
+    color: white;
+}
+.header-top a {
+    color: #fff;
+    font-size: 18px;
+}

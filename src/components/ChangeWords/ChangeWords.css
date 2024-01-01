@@ -1,0 +1,75 @@
+
+.change-text {
+    text-align: start;
+}
+
+.word {
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    text-indent: 5px;
+    color: #fff;
+    white-space: nowrap; /* Ensure words don't wrap to the next line */
+    align-self: center;
+    color: #876cc4;
+    font-size: 22px;
+}
+@media (max-width: 992px) {
+    .word {
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .word {
+        font-size: 18px;
+    }
+}
+/* .word .letter {
+    transform-origin: center center 25px;
+} */
+.word .letter {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(1em);
+    transition: opacity 0.5s, transform 0.5s;
+    letter-spacing: 0.05em; /* Adjust this value as needed */
+}
+/* .word .letter.out {
+    transform: rotateX(90deg);
+    -webkit-transform: rotateX(90deg);
+    -moz-transform: rotateX(90deg);
+    -ms-transform: rotateX(90deg);
+    -o-transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+    -webkit-transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+    -moz-transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+    -ms-transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+    -o-transition: 0.32s cubic-bezier(0.6,0,0.7,0.2);
+} */
+.word .letter.out {
+    opacity: 0;
+    transform: translateY(-1em);
+  }
+
+/* .word .letter.in {
+    transition: 0.38s ease;
+    -webkit-transition: 0.38s ease;
+    -moz-transition: 0.38s ease;
+    -ms-transition: 0.38s ease;
+    -o-transition: 0.38s ease;
+} */
+.word .letter.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+/* .word .letter.behind {
+    transform: rotateX(-90deg);
+    -webkit-transform: rotateX(-90deg);
+    -moz-transform: rotateX(-90deg);
+    -ms-transform: rotateX(-90deg);
+    -o-transform: rotateX(-90deg);
+} */
+.word .letter.behind {
+    opacity: 0;
+    transform: translateY(-1em);
+  }

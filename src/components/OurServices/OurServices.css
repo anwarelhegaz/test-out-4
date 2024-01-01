@@ -1,0 +1,70 @@
+.our-services {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+.our-services .box-content {
+    border: 1px solid #E2F3FD;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px 0;
+}
+.our-services .box-content .box-head {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFE1A0;
+}
+.our-services .box-content .box-head img {
+    width: 100px;
+    height: 100px;
+}
+.our-services .box-content .box-head .title {
+    color: #304F6D;
+    margin-top: 10px;
+}
+.our-services .box-content .box-body {
+    padding: 20px 0;
+}   
+.our-services .box-content .box-body ul {
+    padding: 0;
+}
+.our-services .box-content .box-body ul li {
+    font-size: 17px;
+    padding: 7px 0;
+    font-weight: 500;
+}   
+.our-services .box-content .box-body ul li span {
+    color: #899481;
+}   
+.our-services .box-content .box-body ul li a {
+    padding: 0 10px;
+    color: #E07D54;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}   
+.our-services .box-content .box-body ul li:hover a {
+    color: #899481;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

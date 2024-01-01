@@ -1,0 +1,60 @@
+.custom-toggler {
+    /* background-color: white; */
+    border-color: #f2a90d !important;
+    color: black !important;
+    box-shadow: none !important;
+}
+.custom-toggler {
+    transition:  1s ease-in-out;
+    -webkit-transition:  1s ease-in-out;
+    -moz-transition:  1s ease-in-out;
+    -ms-transition:  1s ease-in-out;
+    -o-transition:  1s ease-in-out;
+}
+.my-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 555555;
+}
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 555555;
+}
+@media (max-width: 992px) {
+    .navbar-collapse {
+        border-bottom: 1px solid #f2a90d;
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        left: 0px;
+        right: 0px;
+        padding: 0px 20px;
+    }
+}
+.navbar-brand {
+    margin: 0 !important;
+}
+.navbar-brand img{
+    width: 100px;
+    /* height: 100px; */
+}
+.my-nav ul {
+    margin: 0;
+    padding: 0;
+}
+.my-nav ul li{
+    margin: 0 8px;
+    font-weight: 500;
+}
+.my-nav ul li .nav-link {
+    color: black;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #f2a90d !important;
+}
+
